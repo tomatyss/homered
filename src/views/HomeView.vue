@@ -99,7 +99,7 @@ import Header from "../components/Header.vue";
       </div>
 
       <div id="hr_map"></div>
-      
+
       <ul
         id="list-canvas"
         data-role="listview"
@@ -727,8 +727,6 @@ import Header from "../components/Header.vue";
             style="margin: 0"
             class="default-null"
           >
-            <!--<input type="radio" name="hr_channnel_type" id="hr_channnel_type_1" value="1" class="hr-channeltype-sel hr-popup-trigger" data-hr-help="channeltype1"><label for="hr_channnel_type_1" style="font-weight:normal">Premium channel</label>
-			<div id="channeltype1" class="hr-popup">Premium channel posts are visible to all users by default. Post duration can be up to a week. Premium channel name can be shorter than other channel types (6 characters min). You can change a premium channel to other channel types.</div>-->
             <input
               type="radio"
               name="hr_channnel_type"
@@ -1069,7 +1067,7 @@ import Header from "../components/Header.vue";
           ></a>
           <div id="hr_mnemonics_enter_list" style="margin: 15px">
             <fieldset class="ui-grid-a">
-              <div class="ui-block-a" style="width: 10%; padding-top: 10px">
+              <div class="ui-block-a bloc-a">
                 <span>1</span>
               </div>
               <div class="ui-block-b" style="width: 90%">
@@ -1094,7 +1092,7 @@ import Header from "../components/Header.vue";
               class="word-list"
             ></ul>
             <fieldset class="ui-grid-a">
-              <div class="ui-block-a" style="width: 10%; padding-top: 10px">
+              <div class="ui-block-a bloc-a">
                 <span>2</span>
               </div>
               <div class="ui-block-b" style="width: 90%">
@@ -1119,7 +1117,7 @@ import Header from "../components/Header.vue";
               class="word-list"
             ></ul>
             <fieldset class="ui-grid-a">
-              <div class="ui-block-a" style="width: 10%; padding-top: 10px">
+              <div class="ui-block-a bloc-a">
                 <span>3</span>
               </div>
               <div class="ui-block-b" style="width: 90%">
@@ -1144,7 +1142,7 @@ import Header from "../components/Header.vue";
               class="word-list"
             ></ul>
             <fieldset class="ui-grid-a">
-              <div class="ui-block-a" style="width: 10%; padding-top: 10px">
+              <div class="ui-block-a bloc-a">
                 <span>4</span>
               </div>
               <div class="ui-block-b" style="width: 90%">
@@ -1169,7 +1167,7 @@ import Header from "../components/Header.vue";
               class="word-list"
             ></ul>
             <fieldset class="ui-grid-a">
-              <div class="ui-block-a" style="width: 10%; padding-top: 10px">
+              <div class="ui-block-a bloc-a">
                 <span>5</span>
               </div>
               <div class="ui-block-b" style="width: 90%">
@@ -1194,7 +1192,7 @@ import Header from "../components/Header.vue";
               class="word-list"
             ></ul>
             <fieldset class="ui-grid-a">
-              <div class="ui-block-a" style="width: 10%; padding-top: 10px">
+              <div class="ui-block-a bloc-a">
                 <span>6</span>
               </div>
               <div class="ui-block-b" style="width: 90%">
@@ -1219,7 +1217,7 @@ import Header from "../components/Header.vue";
               class="word-list"
             ></ul>
             <fieldset class="ui-grid-a">
-              <div class="ui-block-a" style="width: 10%; padding-top: 10px">
+              <div class="ui-block-a bloc-a">
                 <span>7</span>
               </div>
               <div class="ui-block-b" style="width: 90%">
@@ -1244,7 +1242,7 @@ import Header from "../components/Header.vue";
               class="word-list"
             ></ul>
             <fieldset class="ui-grid-a">
-              <div class="ui-block-a" style="width: 10%; padding-top: 10px">
+              <div class="ui-block-a bloc-a">
                 <span>8</span>
               </div>
               <div class="ui-block-b" style="width: 90%">
@@ -1269,7 +1267,7 @@ import Header from "../components/Header.vue";
               class="word-list"
             ></ul>
             <fieldset class="ui-grid-a">
-              <div class="ui-block-a" style="width: 10%; padding-top: 10px">
+              <div class="ui-block-a bloc-a">
                 <span>9</span>
               </div>
               <div class="ui-block-b" style="width: 90%">
@@ -1294,7 +1292,7 @@ import Header from "../components/Header.vue";
               class="word-list"
             ></ul>
             <fieldset class="ui-grid-a">
-              <div class="ui-block-a" style="width: 10%; padding-top: 10px">
+              <div class="ui-block-a bloc-a">
                 <span>10</span>
               </div>
               <div class="ui-block-b" style="width: 90%">
@@ -1319,7 +1317,7 @@ import Header from "../components/Header.vue";
               class="word-list"
             ></ul>
             <fieldset class="ui-grid-a">
-              <div class="ui-block-a" style="width: 10%; padding-top: 10px">
+              <div class="ui-block-a bloc-a">
                 <span>11</span>
               </div>
               <div class="ui-block-b" style="width: 90%">
@@ -1344,7 +1342,7 @@ import Header from "../components/Header.vue";
               class="word-list"
             ></ul>
             <fieldset class="ui-grid-a">
-              <div class="ui-block-a" style="width: 10%; padding-top: 10px">
+              <div class="ui-block-a bloc-a">
                 <span>12</span>
               </div>
               <div class="ui-block-b" style="width: 90%">
@@ -1757,10 +1755,25 @@ import Header from "../components/Header.vue";
   </div>
 </template>
 
-
+<script>
+export default {
+  setup() {
+    
+  },
+  data() {
+  return {
+  }
+}
+}
+</script>
 
 <style>
 .leaflet-tile-container {
   pointer-events: auto;
+}
+
+.bloc-a {
+  width: 10%; 
+  padding-top: 10px
 }
 </style>

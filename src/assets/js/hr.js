@@ -1317,33 +1317,33 @@ function formatChannelsWindow(pCreateHomred){//channel window - hide extra eleme
 	}
 }
 
-function showMenu(){
-  //if(gViewMode){
-    if($('#hr_mnemonics').is(':visible')){$('#hr_mnemonics, .hr-modal').hide()}
-    else if($('#hr_mnemonics_restore').is(':visible')){$('#hr_mnemonics_restore, .hr-modal').hide()}
-	else if(MenuOpen()){hideMenu()}
-    else{	
-		hideAbout();
-		$('#hr_menu_btn').removeClass('ui-icon-menu').addClass('ui-icon-menu-active');
-		$('#main_menu').show("slide:right");
-		if(gViewMode){closeHomred()}
-		else{cancelCreateHomred()} 
-		if(!isDesktop()) {//if mobile
-			closeHomred();
-			hideChannels();
-			$('#hr_search').hide();
-		}
-    }
-  //}
-}
+// function showMenu(){
+//   //if(gViewMode){
+//     if($('#hr_mnemonics').is(':visible')){$('#hr_mnemonics, .hr-modal').hide()}
+//     else if($('#hr_mnemonics_restore').is(':visible')){$('#hr_mnemonics_restore, .hr-modal').hide()}
+// 	else if(MenuOpen()){hideMenu()}
+//     else{	
+// 		hideAbout();
+// 		$('#hr_menu_btn').removeClass('ui-icon-menu').addClass('ui-icon-menu-active');
+// 		$('#main_menu').show("slide:right");
+// 		if(gViewMode){closeHomred()}
+// 		else{cancelCreateHomred()} 
+// 		if(!isDesktop()) {//if mobile
+// 			closeHomred();
+// 			hideChannels();
+// 			$('#hr_search').hide();
+// 		}
+//     }
+//   //}
+// }
 
-function hideMenu(){
-	if(MenuOpen()){		
-		$('#hr_menu_btn').removeClass('ui-icon-menu-active').addClass('ui-icon-menu');
-		$('#main_menu').hide("slide:left");
-		showSearch();
-	}
-}
+// function hideMenu(){
+// 	if(MenuOpen()){		
+// 		$('#hr_menu_btn').removeClass('ui-icon-menu-active').addClass('ui-icon-menu');
+// 		$('#main_menu').hide("slide:left");
+// 		showSearch();
+// 	}
+// }
 
 function showChannels(){
     if(ChannelsOpen()){hideChannels()}
