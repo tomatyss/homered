@@ -1,10 +1,6 @@
-//20200413
+
 'use strict'; 
-//import * as hdkey from '/moyvamprivet/ethereumjs-wallet.js'; 
-//const Wallet = require('ethereumjs-wallet').default;
 const { HDKey } = require("@scure/bip32");
-//const EthJS = require('ethereumjs-util');//not required
-//const { thirdparty } = require('ethereumjs-wallet');not needed 
 const cHardenedOffset = 0x80000000;//2,147,483,648 (harnened key is > or = hardened offset
 var gHR = {//global object for everything
 	lat:0,//51.5080863,//0,
@@ -367,10 +363,18 @@ $(document).on('pageinit', function(){//https://stackoverflow.com/questions/1446
 	  }*/
 	});	
 	
-	$('#hr_no_splash').on('change',function(){
-		if($(this).is(":checked")){gHR.helpText.main.v = gHR.helpText.maxHelpShow}
+	/*$('#hr_no_splash').on('change',function(){
+		if($(this).is(":checked")){
+			gHR.helpText.main.v = gHR.helpText.maxHelpShow;
+			hideAbout();
+		}
 		else{gHR.helpText.main.v = 0}
+	});*/
+	$('#hr_no_splash').on('click',function(){
+		gHR.helpText.main.v = gHR.helpText.maxHelpShow;
+		hideAbout();
 	});
+	
 	
 	setDates();
     ///////////////////////////////////////////////////////////////////
@@ -430,7 +434,7 @@ $(document).on('pageinit', function(){//https://stackoverflow.com/questions/1446
   if ('serviceWorker' in navigator && 'PushManager' in window) {
 	  window.addEventListener('load', function() {
 	        //navigator.serviceWorker.register('/hrpsw.js').then(function(swReg) {
-	        navigator.serviceWorker.register('/moyvamprivet/hrpsw.js').then(function(swReg) {
+	        navigator.serviceWorker.register('./hrpsw.js').then(function(swReg) {
 	            cLog('Service Worker is registered', swReg);
 	            swRegistration = swReg;
 			    swRegistration.pushManager.getSubscription().then(function(subscription) {//retrieves an existing push subscription
@@ -3013,7 +3017,7 @@ function createImage(pImage){//testing if image is already prepared
 	else if(pImage.indexOf('http')===0){return '<img src="'+pImage+'" style="width:23px;height:23px">'}//image returned as URL
 	else{return '<img src="data:image/ico;base64,'+pImage+'" style="width:23px;height:23px">'}//create image from buffer
   }else{
-	  return null;//'<img src="../moyvamprivet/images/channel.svg" style="width:23px;height:23px">';
+	  return null;//'<img src="../img/channel.svg" style="width:23px;height:23px">';
   }
 }
 
@@ -3296,7 +3300,7 @@ function manageUserLocation() {
 	}
     else if(gHR.geolocation===2){//switching geolocation off
 		gHR.geolocation=1;
-		$('#hr_geolocate').attr('src', '../moyvamprivet/images/hr-geolocation-off.svg');
+		$('#hr_geolocate').attr('src', '../img/hr-geolocation-off.svg');
 		if(vMapL.hasLayer(gHR.geoCircle)){vMapL.removeLayer(gHR.geoCircle);}//https://gist.github.com/mollietaylor/8564724
 		//navigator.geolocation.clearWatch(gHR.watchId); UNCOMMENT FOR WATCH POSITION
 		setSearchEvents();
@@ -3334,7 +3338,7 @@ function showPosition(position) {
 	}
 	else{//cLog('getting position for the 1st time');
 		gHR.geolocation=2;	
-		$('#hr_geolocate').attr('src', '../moyvamprivet/images/hr-geolocation-on.svg');
+		$('#hr_geolocate').attr('src', '../img/hr-geolocation-on.svg');
 		vZoom = 15;
 		vMapL.setView(vCurrLocation,vZoom);			
 		ShowTempMarker(/*gViewMode*/);//false - new homred icon; true - place icon
@@ -3345,7 +3349,7 @@ function showPositionError(error) {
 	console.log("started show Position error");
 	logBrowser('getCurrentPosition error: '+error); 
 	gHR.geolocation=5;
-	$('#hr_geolocate').attr('src', '../moyvamprivet/images/hr-geolocation-error.svg');
+	$('#hr_geolocate').attr('src', '../img/hr-geolocation-error.svg');
 }	
 
 function setSearchPlace(){
@@ -3396,7 +3400,7 @@ async function initMap(){
 	L.Control.locateMe = L.Control.extend({
 		onAdd: function(map) {
 			var img = L.DomUtil.create('img');
-			img.src = '../moyvamprivet/images/hr-geolocation-unknown.svg';
+			img.src = '../img/hr-geolocation-unknown.svg';
 			img.style.width = '4em';
 			//img.style.margin-top = '50px';
 			//img.style.margin-left = '15px';
@@ -3412,11 +3416,11 @@ async function initMap(){
 	if (navigator.geolocation) {
 		cLog('navigator.geolocation supported');
 		gHR.geolocation = 1;
-		$('#hr_geolocate').attr('src', '../moyvamprivet/images/hr-geolocation-off.svg');
+		$('#hr_geolocate').attr('src', '../img/hr-geolocation-off.svg');
 	} else {
 		cLog('navigator.geolocation NOT supported');
 		gHR.geolocation = 4;
-		$('#hr_geolocate').attr('src', '../moyvamprivet/images/hr-geolocation-unsupported.svg');
+		$('#hr_geolocate').attr('src', '../img/hr-geolocation-unsupported.svg');
 		//$('#hr_geolocate').prop("disabled", true);
 	}	
 	cLog('gHR.geolocation: '+gHR.geolocation);	
@@ -3431,11 +3435,11 @@ async function initMap(){
 	if (navigator.geolocation) {
 		//cLog('navigator.geolocation supported');
 		gHR.geolocation = 1;
-		$('#hr_geolocate').attr('src', '../moyvamprivet/images/hr-geolocation-off.svg');
+		$('#hr_geolocate').attr('src', '../img/hr-geolocation-off.svg');
 	} else {
 		//cLog('navigator.geolocation NOT supported');
 		gHR.geolocation = 4;
-		$('#hr_geolocate').attr('src', '../moyvamprivet/images/hr-geolocation-unsupported.svg');
+		$('#hr_geolocate').attr('src', '../img/hr-geolocation-unsupported.svg');
 		//$('#hr_geolocate').prop("disabled", true);
 	}	
 	//cLog('gHR.geolocation: '+gHR.geolocation); 
@@ -4732,7 +4736,7 @@ function setInteractiveHelpStatuses(){
 			gHR.helpText.main.v = gHR.helpText.main.v+1;
 			cryptoStoreSet('interactivehelp', Object.keys(gHR.helpText).filter(el => gHR.helpText[el].v > 0).join());
 		}
-		if(gHR.helpText.main.v === gHR.helpText.maxHelpShow){$('#hr_no_splash').attr('checked', 'checked').checkboxradio("refresh")}
+		//if(gHR.helpText.main.v === gHR.helpText.maxHelpShow){$('#hr_no_splash').attr('checked', 'checked').checkboxradio("refresh")}
 	});
 }
 

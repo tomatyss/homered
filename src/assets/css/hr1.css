@@ -500,7 +500,7 @@ a.hr-highlight::after {background-color: white !important;}
 /*****************************ICONS***************************/
 
 .button-hr,.button-hr:link,.button-hr:visited{
-background-image: url('../moyvamprivet/images/hrbutton.svg');
+background-image: url('../img/hrbutton.svg');
 background-repeat: no-repeat;
 background-position: center;
 background-size: contain;
@@ -512,13 +512,13 @@ background-color: transparent !important;
 }
 
 .hr-help-icon::after {
-	background-image: url('../moyvamprivet/images/help.svg');
+	background-image: url('../img/help.svg');
 	background-size: contain;
 	background-color: transparent;
 }
 
 .hr_green_icon {
-	background-image: url('../moyvamprivet/images/maplabel_green.svg');
+	background-image: url('../img/maplabel_green.svg');
 	background-size: contain;
     text-align: center;
     vertical-align: middle;
@@ -530,7 +530,7 @@ background-color: transparent !important;
 }
 
 .hr_place_icon {
-	background-image: url('../moyvamprivet/images/place.svg');
+	background-image: url('../img/place.svg');
 	background-size: contain;
     text-align: center;
     vertical-align: middle;
@@ -542,7 +542,7 @@ background-color: transparent !important;
 }
 
 .ui-icon-2::after {
-background-image: url('../moyvamprivet/images/like.svg');
+background-image: url('../img/like.svg');
 /*background-size: contain;
 background-color: transparent;*/
 background-size: contain;
@@ -553,7 +553,7 @@ border-radius:0px;
 }
 
 .ui-icon-2-active::after {
-background-image: url('../moyvamprivet/images/like_active.svg');
+background-image: url('../img/like_active.svg');
 /*background-size: contain;
 background-color: transparent;*/
 background-size: contain;
@@ -564,7 +564,7 @@ border-radius:0px;
 }
 
 .ui-icon-3::after {
-background-image: url('../moyvamprivet/images/dislike.svg');
+background-image: url('../img/dislike.svg');
 /*background-size: contain;
 background-color: transparent;*/
 background-size: contain;
@@ -575,7 +575,7 @@ border-radius:0px;
 }
 
 .ui-icon-3-active::after {
-background-image: url('../moyvamprivet/images/dislike_active.svg');
+background-image: url('../img/dislike_active.svg');
 /*background-size: contain;
 background-color: transparent;*/
 background-size: contain;
@@ -586,19 +586,19 @@ border-radius:0px;
 }
 
 .ui-icon-5::after {
-background-image: url('../moyvamprivet/images/question.svg');
+background-image: url('../img/question.svg');
 background-size: contain;
 background-color: transparent;
 }
 
 .ui-icon-5-active::after {
-background-image: url('../moyvamprivet/images/question_active.svg');
+background-image: url('../img/question_active.svg');
 background-size: contain;
 background-color: transparent;
 }
 
 .ui-icon-6::after {
-background-image: url('../moyvamprivet/images/share.svg');
+background-image: url('../img/share.svg');
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -607,7 +607,7 @@ border-radius:0px;
 }
 
 .ui-icon-6-active::after {
-background-image: url('../moyvamprivet/images/share_active.svg');
+background-image: url('../img/share_active.svg');
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -616,7 +616,7 @@ border-radius:0px;
 }
 
 .ui-icon-11::after, .ui-icon-69::after { /*notif - bell icon*/
-background-image: url('../moyvamprivet/images/bell.svg');
+background-image: url('../img/bell.svg');
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -626,7 +626,7 @@ border-radius:0px;
 }
 
 .ui-icon-11-active::after, .ui-icon-69-active::after { /*notif - bell icon*/
-background-image: url('../moyvamprivet/images/bell_active.svg');
+background-image: url('../img/bell_active.svg');
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -635,19 +635,19 @@ border-radius:0px;
 }
 
 .ui-icon-7::after {
-background-image: url('../moyvamprivet/images/hrviewed.svg');
+background-image: url('../img/hrviewed.svg');
 background-size: contain;
 background-color: transparent;
 }
 
 .ui-icon-7-active::after {
-background-image: url('../moyvamprivet/images/hrviewed_active.svg');
+background-image: url('../img/hrviewed_active.svg');
 background-size: contain;
 background-color: transparent;
 }
 
 .ui-icon-dislike::after {
-background-image: url('../moyvamprivet/images/dislike.svg');
+background-image: url('../img/dislike.svg');
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -656,103 +656,103 @@ border-radius:0px;
 }
 
 .ui-icon-dislike-active::after {
-background-image: url('../moyvamprivet/images/dislike_active.svg');
+background-image: url('../img/dislike_active.svg');
 background-size: contain;
 background-color: transparent;
 }
 
 .ui-icon-save::after {
-background-image: url('../moyvamprivet/images/save.svg');
+background-image: url('../img/save.svg');
 background-size: contain;
 background-color: transparent;
 }
 
 .ui-icon-save:active::after {
-background-image: url('../moyvamprivet/images/save_active.svg');
+background-image: url('../img/save_active.svg');
 background-size: contain;
 background-color: transparent;
 }
 
 .ui-icon-restore::after {
-background-image: url('../moyvamprivet/images/restore.svg');
+background-image: url('../img/restore.svg');
 background-size: contain;
 background-color: transparent;
 }
 
 .ui-icon-restore:active::after {
-background-image: url('../moyvamprivet/images/restore.svg');
+background-image: url('../img/restore.svg');
 background-size: contain;
 background-color: transparent;
 }
 
 .ui-icon-words::after {
-background-image: url('../moyvamprivet/images/words.svg');
+background-image: url('../img/words.svg');
 background-size: contain;
 background-color: transparent;
 }
 
 .ui-icon-words:active::after {
-background-image: url('../moyvamprivet/images/words.svg');
+background-image: url('../img/words.svg');
 background-size: contain;
 background-color: transparent;
 }
 
 .ui-icon-help::after {
-background-image: url('../moyvamprivet/images/help.svg');
+background-image: url('../img/help.svg');
 background-size: contain;
 background-color: transparent;
 }
 
 .ui-icon-help:active::after {
-background-image: url('../moyvamprivet/images/help_active.svg');
+background-image: url('../img/help_active.svg');
 background-size: contain;
 background-color: transparent;
 }
 
 .ui-icon-feedback::after {
-background-image: url('../moyvamprivet/images/feedback.svg');
+background-image: url('../img/feedback.svg');
 background-size: contain;
 background-color: transparent;
 }
 
 .ui-icon-feedback:active::after {
-background-image: url('../moyvamprivet/images/feedback_active.svg');
+background-image: url('../img/feedback_active.svg');
 background-size: contain;
 background-color: transparent;
 }
 
 .ui-icon-info::after {
-background-image: url('../moyvamprivet/images/info.svg');
+background-image: url('../img/info.svg');
 background-size: contain;
 background-color: transparent;
 }
 
 .ui-icon-info:active::after {
-background-image: url('../moyvamprivet/images/info_active.svg');
+background-image: url('../img/info_active.svg');
 background-size: contain;
 background-color: transparent;
 }
 
 .ui-icon-terms::after {
-background-image: url('../moyvamprivet/images/terms.svg');
+background-image: url('../img/terms.svg');
 background-size: contain;
 background-color: transparent;
 }
 
 .ui-icon-donate::after {
-background-image: url('../moyvamprivet/images/donate.svg');
+background-image: url('../img/donate.svg');
 background-size: contain;
 background-color: transparent;
 }
 
 .ui-icon-member::after {
-background-image: url('../moyvamprivet/images/user.svg');
+background-image: url('../img/user.svg');
 background-size: contain;
 background-color: transparent;
 }
 
 .ui-icon-tag::after {
-background-image: url('../moyvamprivet/images/hashtags.svg');
+background-image: url('../img/hashtags.svg');
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -764,18 +764,18 @@ background-color: transparent !important;
 }
 
 .ui-icon-validate::after {
-background-image: url('../moyvamprivet/images/verify.svg');
+background-image: url('../img/verify.svg');
 background-size: contain;
 background-color: transparent;
 }
 
 .ui-icon-validate:active::after {
-background-image: url('../moyvamprivet/images/verify_active.svg');
+background-image: url('../img/verify_active.svg');
 background-size: contain;
 background-color: transparent;
 }
 .ui-icon-duplicate::after {
-background-image: url('../moyvamprivet/images/copy.svg');
+background-image: url('../img/copy.svg');
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -784,7 +784,7 @@ border-radius:0px;
 }
 
 .ui-icon-edit::after {
-background-image: url('../moyvamprivet/images/edit.svg');
+background-image: url('../img/edit.svg');
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -795,7 +795,7 @@ height:22px;
 }
 
 .ui-icon-share::after {
-background-image: url('../moyvamprivet/images/share.svg');
+background-image: url('../img/share.svg');
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -804,7 +804,7 @@ border-radius:0px;
 }
 
 .ui-icon-remove::after {
-background-image: url('../moyvamprivet/images/delete.svg');
+background-image: url('../img/delete.svg');
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -813,7 +813,7 @@ border-radius:0px;
 }
 
 .ui-icon-pause::after {
-background-image: url('../moyvamprivet/images/pause_channel.svg');
+background-image: url('../img/pause_channel.svg');
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -822,7 +822,7 @@ border-radius:0px;
 }
 
 .ui-icon-resume::after {
-background-image: url('../moyvamprivet/images/restore_channel.svg');
+background-image: url('../img/restore_channel.svg');
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -831,19 +831,19 @@ border-radius:0px;
 }
 
 .ui-icon-add::after {
-background-image: url('../moyvamprivet/images/add.svg');
+background-image: url('../img/add.svg');
 background-size: contain;
 background-color: transparent;
 }
 
 .ui-icon-wrap::after {
-background-image: url('../moyvamprivet/images/wrap.svg');
+background-image: url('../img/wrap.svg');
 background-size: contain;
 background-color: transparent;
 }
 
 .ui-icon-hr-group::after {
-background-image: url(../moyvamprivet/images/group.svg);
+background-image: url(../img/group.svg);
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -851,7 +851,7 @@ background-color: transparent;
 border-radius:0px;
 }
 .ui-icon-hr-group-active::after {
-background-image: url(../moyvamprivet/images/group_active.svg);
+background-image: url(../img/group_active.svg);
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -860,7 +860,7 @@ border-radius:0px;
 }
 
 .ui-icon-menu::after {
-background-image: url(../moyvamprivet/images/menu.svg);
+background-image: url(../img/menu.svg);
 /*background-size: contain;*/
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -876,11 +876,11 @@ padding:28px 0 0;
 font-size:10px;*/
 }
 .ui-icon-menu:active::after {
-background-image: url(../moyvamprivet/images/menu_active.svg);
+background-image: url(../img/menu_active.svg);
 }
 
 .ui-icon-find-place::after {
-background-image: url(../moyvamprivet/images/place.svg);
+background-image: url(../img/place.svg);
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -896,7 +896,7 @@ font-size:10px;*/
 }
 
 .ui-icon-find::after {
-background-image: url(../moyvamprivet/images/maplabel_green.svg);
+background-image: url(../img/maplabel_green.svg);
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -911,10 +911,10 @@ padding:28px 0 0;
 font-size:10px;*/
 }
 .ui-icon-find:active::after {
-background-image: url(../moyvamprivet/images/maplabel_green.svg);
+background-image: url(../img/maplabel_green.svg);
 }
 /*.ui-icon-find-active::after {
-background-image: url(../moyvamprivet/images/find_active.svg);
+background-image: url(../img/find_active.svg);
 }*/
 
 .ui-input-search input {
@@ -922,7 +922,7 @@ background-image: url(../moyvamprivet/images/find_active.svg);
 }
 
 .ui-icon-channels-filtered::after{
-background-image: url(../moyvamprivet/images/channel_filter.svg);
+background-image: url(../img/channel_filter.svg);
 background-size: contain;
 background-color: transparent !important;
 -moz-border-radius: 0px;
@@ -936,7 +936,7 @@ margin-right: auto !important;
 }
 
 .ui-icon-channel-filter::after{
-background-image: url(../moyvamprivet/images/channel_filter.svg);
+background-image: url(../img/channel_filter.svg);
 background-size: contain;
 background-color: transparent !important;
 -moz-border-radius: 0px;
@@ -950,7 +950,7 @@ margin-right: auto !important;
 }
 
 .ui-icon-channel-filter-off::after{
-background-image: url(../moyvamprivet/images/channel_filter_off.svg);
+background-image: url(../img/channel_filter_off.svg);
 background-size: contain;
 background-color: transparent !important;
 -moz-border-radius: 0px;
@@ -965,7 +965,7 @@ margin-right: auto !important;
 }*/
 
 .ui-icon-channel::after {
-background-image: url(../moyvamprivet/images/group.svg);
+background-image: url(../img/group.svg);
 background-size: contain;
 background-color: transparent !important;
 -moz-border-radius: 0px;
@@ -978,7 +978,7 @@ margin-left: auto !important;
 margin-right: auto !important;
 }
 .ui-icon-channel:active::after {
-background-image: url(../moyvamprivet/images/group_active.svg);
+background-image: url(../img/group_active.svg);
 background-size: contain;
 background-color: transparent !important;
 -moz-border-radius: 0px;
@@ -986,7 +986,7 @@ background-color: transparent !important;
 border-radius:0px;
 }
 .ui-icon-channel-active::after {
-background-image: url(../moyvamprivet/images/group_active.svg);
+background-image: url(../img/group_active.svg);
 background-size: contain;
 background-color: transparent !important;
 -moz-border-radius: 0px;
@@ -995,7 +995,7 @@ border-radius:0px;
 }
 
 .ui-icon-channel-new::after {
-background-image: url(../moyvamprivet/images/group.svg);
+background-image: url(../img/group.svg);
 background-size: contain;
 background-color: transparent !important;
 -moz-border-radius: 0px;
@@ -1003,7 +1003,7 @@ background-color: transparent !important;
 border-radius:0px;
 }
 .ui-icon-channel-new-active::after {
-background-image: url(../moyvamprivet/images/group_active.svg);
+background-image: url(../img/group_active.svg);
 background-size: contain;
 background-color: transparent !important;
 -moz-border-radius: 0px;
@@ -1012,7 +1012,7 @@ border-radius:0px;
 }
 /*------------------------------*/
 .ui-icon-post::after {
-background-image: url(../moyvamprivet/images/post.svg);
+background-image: url(../img/post.svg);
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -1023,15 +1023,15 @@ border-radius:0px;
 background-color: transparent !important;
 }
 /*.ui-icon-post:active::after {
-background-image: url(../moyvamprivet/images/post.svg);
+background-image: url(../img/post.svg);
 }
 .ui-icon-post-active::after {
-background-image: url(../moyvamprivet/images/post.svg);
+background-image: url(../img/post.svg);
 }*/
 
 /*-----------------------------*/
 .ui-icon-earlier::after {
-background-image: url(../moyvamprivet/images/earlier.svg);
+background-image: url(../img/earlier.svg);
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -1039,7 +1039,7 @@ background-color: transparent;
 border-radius:0px;
 }
 .ui-icon-earlier:active::after {
-background-image: url(../moyvamprivet/images/earlier_active.svg);
+background-image: url(../img/earlier_active.svg);
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -1048,7 +1048,7 @@ border-radius:0px;
 }
 
 .ui-icon-later::after {
-background-image: url(../moyvamprivet/images/later.svg);
+background-image: url(../img/later.svg);
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -1056,7 +1056,7 @@ background-color: transparent;
 border-radius:0px;
 }
 .ui-icon-later:active::after {
-background-image: url(../moyvamprivet/images/later_active.svg);
+background-image: url(../img/later_active.svg);
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -1064,7 +1064,7 @@ background-color: transparent;
 border-radius:0px;
 }
 .ui-icon-hr-datetime::after {
-background-image: url(../moyvamprivet/images/time.svg);
+background-image: url(../img/time.svg);
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -1079,7 +1079,7 @@ padding-bottom:0;/*required to style time collapsible*/
 }
 
 .ui-icon-hr-datetime-active::after {
-background-image: url(../moyvamprivet/images/time_active.svg);
+background-image: url(../img/time_active.svg);
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -1100,7 +1100,7 @@ background-color: #26ad77 !important;
 }
 
 .ui-icon-hr-weblink::after {
-background-image: url(../moyvamprivet/images/link.svg);
+background-image: url(../img/link.svg);
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -1109,7 +1109,7 @@ border-radius:0px;
 }
 
 .ui-icon-delete::after {/*overriding standard jquery class ui-icon-delete*/
-background-image: url(../moyvamprivet/images/close.svg);
+background-image: url(../img/close.svg);
 background-size: contain;
 background-color: transparent;
 -moz-border-radius: 0px;
@@ -1124,7 +1124,7 @@ width:22px;
 	background-color: transparent !important;
 }*/
 .ui-icon-delete:active::after, .ui-icon-delete:active::after {/*overriding standard jquery class*/
-background-image: url(../moyvamprivet/images/close_active.svg);
+background-image: url(../img/close_active.svg);
 background-size: contain;
 background-color: transparent !important;
 -moz-border-radius: 0px;
